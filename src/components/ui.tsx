@@ -25,7 +25,7 @@ export function TextArea({ label, name, defaultValue, rows = 4, required, error 
     <label className="block text-sm">
       <span className="font-medium">{label}{required && <span className="text-brand"> *</span>}</span>
       <textarea name={name} rows={rows} required={required} defaultValue={defaultValue ?? undefined}
-        cl assName={clsx("mt-1.5 w-full rounded-xl border bg-paper px-3.5 py-3 outline-none transition-shadow focus:border-brand focus:ring-4 focus:ring-brand/15", error ? "border-red-500" : "border-line")} />
+        className={clsx("mt-1.5 w-full rounded-xl border bg-paper px-3.5 py-3 outline-none transition-shadow focus:border-brand focus:ring-4 focus:ring-brand/15", error ? "border-red-500" : "border-line")} />
       {error && <span className="mt-1 block text-xs text-red-600">{error}</span>}
     </label>
   );
