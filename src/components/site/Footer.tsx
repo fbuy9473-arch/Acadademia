@@ -46,7 +46,7 @@ export default async function Footer() {
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-2 px-4 py-5 text-xs text-white/50 sm:px-6">
           <span>© {new Date().getFullYear()} Academia Tchamile. Todos os direitos reservados.</span>
-          <span>Desenvolvido com propósito em Angola <span className="text-red-400">♥</span> · <a href="/admin/login" className="hover:text-white">Área administrativa</a></span>
+          <span>Desenvolvido com propósito em Angola <span className="text-red-400">♥</span></span>
         </div>
       </div>
     </footer>
